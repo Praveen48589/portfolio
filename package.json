@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "you can find me here!!",
+  "main": "script.js",
+  "scripts": {
+  "lint:html": "htmlhint .",
+  "lint:js": "eslint .",
+  "lint:css": "stylelint \"**/*.css\"",
+  "lint": "npm run lint:html && npm run lint:js && npm run lint:css"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Praveen48589/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Praveen48589/portfolio/issues"
+  },
+  "homepage": "https://github.com/Praveen48589/portfolio#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.0.0",
+    "htmlhint": "^1.8.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}
